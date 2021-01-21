@@ -5,10 +5,7 @@ import NavBar from './pages/Home/components/NavBar';
 
 const App = () => {
 	return (
-		<>
-			<NavBar />
-			<Routes />
-		</>
+		<Routes />
 	);
 }
 

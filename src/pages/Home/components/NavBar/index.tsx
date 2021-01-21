@@ -1,9 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function NavBar() {
   return (
-    <h1>NavBar</h1>
+    <nav className="main-nav">
+      <Link to="/" className="nav-logo-text">
+        Bootcamp DevSuperior
+      </Link>
+    </nav>
   );
 }
 
