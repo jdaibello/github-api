@@ -9,13 +9,13 @@ function Home() {
         <h1>Desafio do Capítulo 3, <br />Bootcamp DevSuperior</h1>
       </div>
       <div className="description">
-        <p className="paragraph">
+        <p>
           Bem-vindos ao desafio do capítulo 3 do Bootcamp DevSuperior.
         </p>
-        <p className="paragraph">
+        <p>
           Favor observar as instruções passadas no capítulo sobre a elaboração deste projeto.
         </p>
-        <p className="paragraph">
+        <p>
           Este design foi adaptado a partir de Ant Design System for Figma, de Matheusz Wirzbicki: <a href="mailto: antforfigma@gmail.com">antforfigma@gmail.com</a>
         </p>
         <Link to="/search">
