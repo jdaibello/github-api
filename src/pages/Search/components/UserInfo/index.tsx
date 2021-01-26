@@ -1,3 +1,4 @@
+import dayjs from 'dayjs';
 import React from 'react';
 import { User } from '../../../../types/user';
 import ImageLoader from '../Loaders/ImageLoader';
@@ -61,7 +62,7 @@ function UserInfo({ user, isLoading }: Props) {
                     <strong>Localidade:</strong> {user.location}
                   </div>
                   <div className="user-info-details-item user-info-item">
-                    <strong>Membro desde:</strong> {user.created_at}
+                    <strong>Membro desde:</strong> {dayjs(user.created_at).format('DD/MM/YYYY HH:mm:ss')}
                   </div>
                 </div>
               </>
